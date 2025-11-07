@@ -7,9 +7,9 @@
     <style>
         #hello{
         /* animation:myanime 2s 5*/
-        animation-name: my anime;
+        animation-name: myanime;
         animation-duration: 2s;
-        animation-iteration-count: 5;
+        animation-iteration-count: infinite;
     }
     #welcome{
         animation: slidein 5s infinite
@@ -25,11 +25,11 @@
         background-color:blue;
         }
         
- 50%{transform:rotate(0deg);
+ 50%{transform:rotate(180deg);
         background-color:darkmagenta;
         }
 
-         100%{transform:rotate(0deg);
+         100%{transform:rotate(360deg);
         background-color:darkolivegreen;
         }
 
@@ -37,14 +37,14 @@
     @keyframes myanime{
         0%{color: yellow;}
         50%{color: blue}
-        100%{color: red}
+        100%{color: red} 
     }
     @keyframes slidein {
-    from{
+        0%{
         color: blue;
         transform: translateX(0px);
     }
-    to{
+    100%{
         color: red;
         transform: translateX(600px);
     }
@@ -53,11 +53,11 @@
 </head>
 <body>
     <h1 id="welcome">Welcome to my site</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+    <p id="hello">Lorem ipsum dolor sit amet consectetur adipisicing 
         elit. Possimus aut nulla inventore dolorem corporis 
         consequatur, obcaecati modi cumque, at maxime, 
         neque vero. Id vero vel provident beatae fugit
-         perspiciatis hic.
+         perspiciatis hic. 
 
     </p>
     <div class="mydiv">
