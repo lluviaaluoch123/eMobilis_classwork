@@ -1,0 +1,34 @@
+h2{
+    color: blue;
+    text-align: center;
+}
+
+form{
+width: 300px;
+margin: 50px auto;
+border: 1px solid plum;
+font-family: 'Courier New', Courier, monospace;
+padding: 20px;
+
+}
+button{
+    background-color: gold;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px;
+    color: purple;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+input{
+    border: 1px solid purple;
+     border-radius: 3px;
+
+}
+
+label{
+    font-weight: bold;
+    display: block;
+}

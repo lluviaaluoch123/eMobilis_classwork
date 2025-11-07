@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #hello{
+        /* animation:myanime 2s 5*/
+        animation-name: my anime;
+        animation-duration: 2s;
+        animation-iteration-count: 5;
+    }
+    #welcome{
+        animation: slidein 5s infinite
+    }
+    .mydiv{
+        background-color: blanchedalmond;
+        width: 200px;
+        height: 200px;
+        animation: spin 2s infinite;
+    }
+    @keyframes spin{
+        0%{transform:rotate(0deg);
+        background-color:blue;
+        }
+        
+ 50%{transform:rotate(0deg);
+        background-color:darkmagenta;
+        }
+
+         100%{transform:rotate(0deg);
+        background-color:darkolivegreen;
+        }
+
+    }
+    @keyframes myanime{
+        0%{color: yellow;}
+        50%{color: blue}
+        100%{color: red}
+    }
+    @keyframes slidein {
+    from{
+        color: blue;
+        transform: translateX(0px);
+    }
+    to{
+        color: red;
+        transform: translateX(600px);
+    }
+    }
+    </style>
+</head>
+<body>
+    <h1 id="welcome">Welcome to my site</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+        elit. Possimus aut nulla inventore dolorem corporis 
+        consequatur, obcaecati modi cumque, at maxime, 
+        neque vero. Id vero vel provident beatae fugit
+         perspiciatis hic.
+
+    </p>
+    <div class="mydiv">
+        <p>animation</p>
+    </div>
+</body>
+</ht
